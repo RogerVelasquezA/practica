@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/estilos.css" asp-append-version="true" />
+</head>
+<body>
+    <div>
+        <header>
+            <img src="~/imagenes/baner.jpg" />
+        </header>
+        <nav>
+            <div class="menu">
+                <a href="#" class="menu-item">Home</a>
+                <a href="#" class="menu-item">Carreras tecnicas</a>
+                <a href="#" class="menu-item">Beca 18</a>
+                <a href="#" class="menu-item">Carreras cortas</a>
+                <a href="#" class="menu-item">Cursos Kids</a>
+                <a href="#" class="menu-item">Contactenos</a>
+            </div>
+
+        </nav>
+        <!--la seccion de la vista-->
+        @RenderBody()
+    </div>
+</body>
+</html>
